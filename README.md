@@ -24,7 +24,7 @@ Ensure you have the following installed on your system:
 ### Steps
 1. Clone the repository:
    ```sh
-   git clone <https://github.com/HafsaHajji/Inventory-system-project/>
+   git clone <https://github.com/HafsaHajji/Inventory-system-project>
    ```
 2. Open the project in Visual Studio.
 3. Set up the MySQL database:
