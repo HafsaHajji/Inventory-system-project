@@ -1,45 +1,52 @@
 # Inventory System
 
-## Description
-This is a simple Inventory System developed using HTML, CSS, and JavaScript for the front-end, while MySQL is used as the database for storing inventory records. The project is developed and managed using Visual Studio.
+## Overview
+This is an Inventory Management System built using JavaScript, HTML, and MySQL. The system helps manage stock, track inventory levels, and streamline product management processes.
 
 ## Features
 - Add, update, and delete inventory items.
-- Track stock levels and product details.
-- User-friendly interface.
-- Responsive design.
+- View inventory list with details.
+- Search functionality for products.
+- Secure data storage using MySQL.
+- User-friendly interface using HTML and JavaScript.
 
 ## Technologies Used
-- **Front-end:** HTML, CSS, JavaScript
-- **Back-end:** MySQL
-- **Development Environment:** Visual Studio
+- **Frontend:** HTML, JavaScript
+- **Backend:** MySQL
+- **Development Environment:** MSV (Microsoft Visual Studio)
 
-## Installation
+## Installation and Setup
 ### Prerequisites
-Ensure you have the following installed on your system:
-- MySQL Server
-- A web browser (Chrome, Firefox, etc.)
-- Visual Studio
+- Install **XAMPP** or any local server that supports MySQL.
+- Install **Microsoft Visual Studio** (if not already installed).
 
 ### Steps
 1. Clone the repository:
    ```sh
-   git clone <https://github.com/HafsaHajji/Inventory-system-project/>
+   git clone https://github.com/HafsaHajj/inventory-system.git
    ```
-2. Open the project in Visual Studio.
-3. Set up the MySQL database:
-   - Create a database for the inventory system.
-   - Import the provided SQL file (`database.sql`) to set up tables.
-4. Configure database connection in your code.
-5. Run the project in a web browser.
+2. Import the database:
+   - Open **phpMyAdmin** (or MySQL CLI) and create a new database.
+   - Import the provided `.sql` file into the database.
+3. Configure database connection:
+   - Open `config.js` (or any configuration file you have used).
+   - Update database credentials (host, user, password, database name).
+4. Run the application:
+   - Open the project in a browser.
+   - Ensure the MySQL server is running.
 
 ## Usage
-1. Open the inventory system in a web browser.
-2. Add, update, or delete inventory items.
-3. View stock levels and manage inventory efficiently.
+1. Open the web application.
+2. Navigate through the dashboard to manage inventory.
+3. Add new products, update stock levels, or remove items.
+4. Use the search bar to find specific items.
 
 ## Contributing
-If you would like to contribute, feel free to fork the repository and submit a pull request.
+If you want to contribute to this project, feel free to fork the repository and submit a pull request.
 
 ## License
 This project is licensed under the MIT License.
+
+## Contact
+For any questions or support, reach out at [xafsaxaaji936@gmail.com] or visit [HafsaHajj].
+
